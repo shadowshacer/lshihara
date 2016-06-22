@@ -18,7 +18,10 @@ class ViewController: UIViewController {
     
     var strAnswer:String = ""
     var intIndex:Int = 0
+    var arrayImage = ["ishihara_01.png", "ishihara_02.png", "ishihara_03.png", "ishihara_04.png", "ishihara_05.png", "ishihara_06.png", "ishihara_07.png", "ishihara_08.png", "ishihara_09.png", "ishihara_10.png"]
     
+    var myAnswer = ["3","5","6","12","29","45","74","42","0","0"]
+    var score:Int = 0
     
 
     override func viewDidLoad() {
@@ -37,8 +40,21 @@ class ViewController: UIViewController {
         strAnswer = String(answerTextField.text)
         print("strAnswer ==> \(strAnswer)")
         
-        intIndex += 1
-        print("intIndex ==> \(intIndex)")
+        if (intIndex < 9) {
+            intIndex += 1
+        }else{
+        
+            intIndex = 0
+        
+        }
+        print("intIdex ===> \(intIndex)")
+        ishisaraImageView.image = UIImage(named: arrayImage[intIndex])
+        
+        if (strAnswer == myAnswer[intIndex]) {
+            score += 1
+            print("Score ==>\(score)")
+        }
+        
         
     }
     
