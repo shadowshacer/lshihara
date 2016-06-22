@@ -14,6 +14,17 @@
 		C850C99C1D1A64C700B0A870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C850C99A1D1A64C700B0A870 /* LaunchScreen.storyboard */; };
 		C850C9A71D1A64C700B0A870 /* lshiharaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850C9A61D1A64C700B0A870 /* lshiharaTests.swift */; };
 		C850C9B21D1A64C700B0A870 /* lshiharaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850C9B11D1A64C700B0A870 /* lshiharaUITests.swift */; };
+		C850C9C01D1A67FF00B0A870 /* wallpapers_a_01.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9BF1D1A67FF00B0A870 /* wallpapers_a_01.png */; };
+		C850C9CB1D1A6A5100B0A870 /* ishihara_01.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9C11D1A6A5100B0A870 /* ishihara_01.png */; };
+		C850C9CC1D1A6A5100B0A870 /* ishihara_02.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9C21D1A6A5100B0A870 /* ishihara_02.png */; };
+		C850C9CD1D1A6A5100B0A870 /* ishihara_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9C31D1A6A5100B0A870 /* ishihara_03.png */; };
+		C850C9CE1D1A6A5100B0A870 /* ishihara_04.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9C41D1A6A5100B0A870 /* ishihara_04.png */; };
+		C850C9CF1D1A6A5100B0A870 /* ishihara_05.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9C51D1A6A5100B0A870 /* ishihara_05.png */; };
+		C850C9D01D1A6A5100B0A870 /* ishihara_06.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9C61D1A6A5100B0A870 /* ishihara_06.png */; };
+		C850C9D11D1A6A5100B0A870 /* ishihara_07.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9C71D1A6A5100B0A870 /* ishihara_07.png */; };
+		C850C9D21D1A6A5100B0A870 /* ishihara_08.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9C81D1A6A5100B0A870 /* ishihara_08.png */; };
+		C850C9D31D1A6A5100B0A870 /* ishihara_09.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9C91D1A6A5100B0A870 /* ishihara_09.png */; };
+		C850C9D41D1A6A5100B0A870 /* ishihara_10.png in Resources */ = {isa = PBXBuildFile; fileRef = C850C9CA1D1A6A5100B0A870 /* ishihara_10.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		C850C9AD1D1A64C700B0A870 /* lshiharaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lshiharaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C850C9B11D1A64C700B0A870 /* lshiharaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lshiharaUITests.swift; sourceTree = "<group>"; };
 		C850C9B31D1A64C700B0A870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C850C9BF1D1A67FF00B0A870 /* wallpapers_a_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wallpapers_a_01.png; path = ../../Resource/Background/wallpapers_a_01.png; sourceTree = "<group>"; };
+		C850C9C11D1A6A5100B0A870 /* ishihara_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_01.png; path = ../../Resource/ishihara/ishihara_01.png; sourceTree = "<group>"; };
+		C850C9C21D1A6A5100B0A870 /* ishihara_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_02.png; path = ../../Resource/ishihara/ishihara_02.png; sourceTree = "<group>"; };
+		C850C9C31D1A6A5100B0A870 /* ishihara_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_03.png; path = ../../Resource/ishihara/ishihara_03.png; sourceTree = "<group>"; };
+		C850C9C41D1A6A5100B0A870 /* ishihara_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_04.png; path = ../../Resource/ishihara/ishihara_04.png; sourceTree = "<group>"; };
+		C850C9C51D1A6A5100B0A870 /* ishihara_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_05.png; path = ../../Resource/ishihara/ishihara_05.png; sourceTree = "<group>"; };
+		C850C9C61D1A6A5100B0A870 /* ishihara_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_06.png; path = ../../Resource/ishihara/ishihara_06.png; sourceTree = "<group>"; };
+		C850C9C71D1A6A5100B0A870 /* ishihara_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_07.png; path = ../../Resource/ishihara/ishihara_07.png; sourceTree = "<group>"; };
+		C850C9C81D1A6A5100B0A870 /* ishihara_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_08.png; path = ../../Resource/ishihara/ishihara_08.png; sourceTree = "<group>"; };
+		C850C9C91D1A6A5100B0A870 /* ishihara_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_09.png; path = ../../Resource/ishihara/ishihara_09.png; sourceTree = "<group>"; };
+		C850C9CA1D1A6A5100B0A870 /* ishihara_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_10.png; path = ../../Resource/ishihara/ishihara_10.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,17 @@
 		C850C9901D1A64C700B0A870 /* lshihara */ = {
 			isa = PBXGroup;
 			children = (
+				C850C9C11D1A6A5100B0A870 /* ishihara_01.png */,
+				C850C9C21D1A6A5100B0A870 /* ishihara_02.png */,
+				C850C9C31D1A6A5100B0A870 /* ishihara_03.png */,
+				C850C9C41D1A6A5100B0A870 /* ishihara_04.png */,
+				C850C9C51D1A6A5100B0A870 /* ishihara_05.png */,
+				C850C9C61D1A6A5100B0A870 /* ishihara_06.png */,
+				C850C9C71D1A6A5100B0A870 /* ishihara_07.png */,
+				C850C9C81D1A6A5100B0A870 /* ishihara_08.png */,
+				C850C9C91D1A6A5100B0A870 /* ishihara_09.png */,
+				C850C9CA1D1A6A5100B0A870 /* ishihara_10.png */,
+				C850C9BF1D1A67FF00B0A870 /* wallpapers_a_01.png */,
 				C850C9911D1A64C700B0A870 /* AppDelegate.swift */,
 				C850C9931D1A64C700B0A870 /* ViewController.swift */,
 				C850C9951D1A64C700B0A870 /* Main.storyboard */,
@@ -229,8 +262,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C850C9CC1D1A6A5100B0A870 /* ishihara_02.png in Resources */,
 				C850C99C1D1A64C700B0A870 /* LaunchScreen.storyboard in Resources */,
+				C850C9D11D1A6A5100B0A870 /* ishihara_07.png in Resources */,
+				C850C9CB1D1A6A5100B0A870 /* ishihara_01.png in Resources */,
+				C850C9CD1D1A6A5100B0A870 /* ishihara_03.png in Resources */,
+				C850C9D31D1A6A5100B0A870 /* ishihara_09.png in Resources */,
+				C850C9C01D1A67FF00B0A870 /* wallpapers_a_01.png in Resources */,
+				C850C9D21D1A6A5100B0A870 /* ishihara_08.png in Resources */,
 				C850C9991D1A64C700B0A870 /* Assets.xcassets in Resources */,
+				C850C9D01D1A6A5100B0A870 /* ishihara_06.png in Resources */,
+				C850C9CF1D1A6A5100B0A870 /* ishihara_05.png in Resources */,
+				C850C9D41D1A6A5100B0A870 /* ishihara_10.png in Resources */,
+				C850C9CE1D1A6A5100B0A870 /* ishihara_04.png in Resources */,
 				C850C9971D1A64C700B0A870 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

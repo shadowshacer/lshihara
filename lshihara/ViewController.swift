@@ -9,6 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var ishisaraImageView: UIImageView!
+    
+    
+    @IBOutlet weak var answerTextField: UITextField!
+    
+    var strAnswer:String = ""
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +28,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func AnswerButton(sender: AnyObject) {
+        
+        strAnswer = String(answerTextField.text)
+        print("strAnswer ==> \(strAnswer)")
+        
+    }
+    
+    
 
 
 }
